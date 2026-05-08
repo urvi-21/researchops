@@ -1,0 +1,33 @@
+# LLM + AI
+groq
+langchain
+langchain-community
+langchain-core
+langgraph
+
+# Embeddings + RAG
+sentence-transformers
+faiss-cpu
+pypdf
+tiktoken
+
+# Backend
+fastapi
+uvicorn
+python-multipart
+
+# Frontend
+streamlit
+
+# ML Tracking
+mlflow
+
+# Data
+pandas
+numpy
+
+# Utilities
+python-dotenv
+pydantic
+tqdm
+
