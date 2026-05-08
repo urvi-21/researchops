@@ -14,6 +14,10 @@ from api.routes.report_routes import (
 )
 
 
+# =========================
+# FASTAPI APP
+# =========================
+
 app = FastAPI(
     title="ResearchOps AI",
     version="1.0.0"
@@ -34,7 +38,7 @@ app.add_middleware(
 
 
 # =========================
-# ROUTES
+# ROUTERS
 # =========================
 
 app.include_router(
@@ -50,7 +54,12 @@ app.include_router(
 )
 
 
+# =========================
+# ROOT ENDPOINT
+# =========================
+
 @app.get("/")
+
 def root():
 
     return {
